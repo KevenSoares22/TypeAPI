@@ -1,0 +1,35 @@
+.search{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: rgb(2, 46, 71);
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.search input,
+.search button
+{
+    color:rgb(14, 56, 56);
+    margin: 4px;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: none;
+
+
+
+}
+
+
+
+.search button{
+    background-color: rgb(1, 25, 39);
+    cursor: pointer;
+
+
+}
