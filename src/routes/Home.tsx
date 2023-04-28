@@ -1,6 +1,10 @@
 import Search from "../components/Search/Search";
 import { useState } from 'react';
 import { UserProps } from "../types/user";
+import styles from "./Home.module.css";
+
+
+
 const Home = () =>{
   const [user, setUser] = useState<UserProps | null>(null);
 
@@ -26,7 +30,7 @@ const Home = () =>{
     return(
     
     <div>
-      <h1>Home</h1>
+      <h1 className={styles.titleElement}>Pesquise no GitHub</h1>
       <Search loadUser={loadUser}/>
       {user && user.login}
     </div>
